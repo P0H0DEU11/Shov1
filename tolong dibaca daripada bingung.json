@@ -1,0 +1,34 @@
+[ COMMAND TERMUX ]
+
+pkg update && pkg upgrade -y
+apt update -y
+apt upgrade -y
+pkg install yarn 
+pkg install unzip -y
+pkg instl zip -y
+pkg install nodejs -y
+pkg install bash -y
+pkg install git -y
+pkg install ffmpeg -y
+pkg install imagemagick -y
+pkg install mc
+cd /sdcard
+cp -r shov1 $HOME
+cd
+cd shov1
+npm i
+unzip baileys.zip -d node_modules/@adiwajshing/
+npm start
+
+🔑 GANTI OWNER DI CONFIG.JS & OWNER.JSON & SRC/DATA/ROLE/CONTACT.JSON
+
+📝 JANGAN ADA YANG KELEWATAN! KALO SALAH NANTI SATIR KE SC NYA, PADAHAL MASANGNYA AJA GA BENER☺️
+
+/*
+    * THX TO 🔥
+    * YURIN (OWNER)
+    * RURI (SUPP)
+    * ZOI (SUPP)
+    * PUGUH (EXEC SC)
+    * GALANG RICO (SHARE)
+*/
